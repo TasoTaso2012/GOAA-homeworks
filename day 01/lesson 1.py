@@ -10,4 +10,5 @@ favorite_color="white" and "purple"
 
 hobby="drawing"
 
-print(name)
+print(name+surname+height+age+hobby)
+
