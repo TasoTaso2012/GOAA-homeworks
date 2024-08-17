@@ -6,6 +6,6 @@ age = 12
 
 print(age)
 
-name = anastasia
+name = "anastasia"
 
 print(name)
