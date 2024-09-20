@@ -1,0 +1,1 @@
+#.lower() function makes uppercase letters lowercase
