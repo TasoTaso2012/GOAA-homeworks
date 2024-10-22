@@ -1,0 +1,44 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color: rgb(10, 46, 81);
+    color: rgb(237, 240, 237);
+}
+
+header {
+    background:rgb(1, 13, 29);
+    color: white;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration:underline;
+}
+
+
+section {
+    background: rgb(1, 13, 29);
+
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+}
+
+.button {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.button:hover {
+    background-color: #020a12;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    width: 100%;
+}
+
+
+#about{color: rgb(253, 251, 251);}
