@@ -1,0 +1,5 @@
+ol{
+    color: rgb(208, 31, 31);
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}

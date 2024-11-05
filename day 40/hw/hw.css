@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 3px;
+}
+
+.navbar {
+    list-style: none;
+    background-color: #444;
+  
+}
+
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2px;
+ 
+}
+
+.navbar a:hover {
+    color: #FFD700; 
+}
+
+main {
+    text-align: center;
+}
+
+
+
+.portfolio-image {
+width: 300px;
+}
+
+.goals-text {
+    font-size: 1.2px;
+    color: #333;
+}
+
+.click-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1em;
+}
+
+.click-button:hover {
+    background-color: #45a049;
+}
+
+footer p {
+    font-size: 1px;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+ul li {
+    color: #666;
+}
+
+ul {
+    list-style-position: inside;
+    color: blue;
+}
+
