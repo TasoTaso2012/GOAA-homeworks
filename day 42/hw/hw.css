@@ -1,0 +1,47 @@
+.my-form {
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+input[type="text"] {
+    background-color: #f0f8ff;
+}
+
+input[type="email"] {
+    background-color: #e0f7fa;
+}
+
+input[type="number"] {
+    background-color: #fff3e0;
+}
+
+input[type="date"] {
+    background-color: #e8f5e9;
+}
+
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+}
