@@ -1,0 +1,51 @@
+/*1*/
+.flex-container-1 {
+    display: flex;
+}
+
+.flex-container-2 {
+    display: flex;
+}
+
+.flex-container-3 {
+    display: flex;
+}
+
+.flex-container-4 {
+    display: flex;
+}
+
+.flex-container-5 {
+    display: flex;
+}
+
+/*2*/
+
+.flex-directioncolumn {
+    flex-direction: column;
+}
+
+/*3*/
+
+.flex-container {
+    display: flex;
+  flex-direction: row;
+}
+
+/*4*/
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/*5*/
+.flex-grow{
+    flex-grow:1;
+}
+/*6*/
+
+.flex-shrink{
+    flex-shrink: 2;
+}
+
+
+
