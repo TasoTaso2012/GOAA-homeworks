@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff5733;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #6795f2;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+}
+
+.form-section, .contact-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.form-section form, .contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label, .contact-section label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4669af;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+button:hover {
+    background-color: #4869b6;
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

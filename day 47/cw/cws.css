@@ -1,0 +1,33 @@
+/*1*/
+.outer-div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     height: 100%;}
+
+.divs {
+    background-color: dodgerblue;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+
+/*2*/
+
+.big-div {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    /*it will have space around the div*/
+
+    align-items: space-between;
+    /*they will have space between them*/
+
+    justify-content: space-evenly; 
+    /*Items will have equal space around */
+
+  
+}
+
