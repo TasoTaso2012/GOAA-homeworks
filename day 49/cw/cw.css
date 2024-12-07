@@ -1,0 +1,11 @@
+.color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    margin-left: 50px;
+}
+
+.photo {
+    width: 200px;
+    border: 10px solid #98cedd;
+}
