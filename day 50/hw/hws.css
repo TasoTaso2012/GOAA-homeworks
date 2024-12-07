@@ -1,0 +1,38 @@
+/*1*/
+.container {
+
+    display: flex;
+    flex-direction: column; 
+}
+
+/*2*/
+.wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*3*/
+.shrink-container {
+    display: flex;
+}
+
+p {
+    flex-shrink: 1; 
+}
+
+/*4*/
+.grow-container {
+    display: flex;
+}
+
+p {
+    flex-grow: 1;
+}
+
+/*5*/
+.block-item {
+    display:inline; }
+
+.inline-item {
+    display: block; 
+}

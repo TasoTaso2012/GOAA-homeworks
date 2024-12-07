@@ -1,0 +1,152 @@
+/*1*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    background-color:#5886bf;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*2*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    background-color: #5886bf;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+/*3*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.containerrr {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+p {
+    background-color:#5886bf;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #ddd;
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap; }
+
+.shrink{
+    flex-shrink: 3;
+}
+
+/*4*/
+
+.item {
+    background-color: #5886bf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+/*5*/
+
+
+.calculator {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #5886bf;
+    color: white;
+
+}
+
+button:hover {
+    background-color: #5886bf;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
