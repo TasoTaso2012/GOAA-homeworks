@@ -1,0 +1,19 @@
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; 
+ 
+}
+
+.b {
+    width: 100px; 
+    height: 100px;
+    margin: 5px;
+}
+
+
+.d1 { background-color: rgb(222, 104, 181); }
+.d2 { background-color: rgb(146, 179, 219); }
+.d3 { background-color: rgb(222, 153, 215); }
+.d4 { background-color: rgb(184, 234, 190); }
+
