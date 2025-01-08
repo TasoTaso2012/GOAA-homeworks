@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+div {
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease;
+}
+
+.div1 {
+    background-color: #72abd1;
+}
+
+.div2 {
+    background-color: #8a1f14;
+}
+
+.div3 {
+    background-color: #95dbb2;
+}
+
+.div4 {
+    background-color: #e7b96f;
+}
+
+/* 1. Move left by 50px on hover */
+.div1:active{
+    transform: translateX(-50px);
+}
+
+/* 2. Scale div 1.5x or 0.5x on hover */
+.div2:active {
+    transform: scale(1.5);
+}
+
+/* 3. Move diagonally down on hover */
+.div3:active {
+    transform: translate(50px, 50px);
+}
+
+/* 4. Rotate counterclockwise on hover */
+.div4:active {
+    transform: rotate(-90deg);
+}

@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 90px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #f4e4cc;
+}
+
+
+.all {
+    text-align: left;
+    max-width: 500px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF; 
+    border-radius: 30px; 
+}
+
+.pink{
+    background-color: rgb(253, 244, 253);
+    border-radius: 10px;
+}
+
+.pink h4{
+    color: rgb(151, 52, 69);
+}
+
+
+.Ingredients h3 {
+    color: saddlebrown;
+
+}
+
+.Instructions h3{
+     color: saddlebrown;
+}
+
+.nutrition h3{
+    color:saddlebrown
+}
+
+

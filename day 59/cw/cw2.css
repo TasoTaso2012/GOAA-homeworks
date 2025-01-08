@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.Div {
+    width: 150px;
+    height: 200px;
+    background-color: #8e44ad;
+    transition: all 0.5s ease;
+}
+
+
+.Div:active {
+    transform: translateX(50px) rotate(25deg) scale(4);
+}
