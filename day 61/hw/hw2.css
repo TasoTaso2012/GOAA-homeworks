@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.bball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(158, 158, 220);
+    animation-name: bounce;
+    animation-duration: 1.2s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-300px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

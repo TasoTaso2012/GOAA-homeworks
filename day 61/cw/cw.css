@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+    background-color: #9dc5df; 
+    animation-duration: 2s;
+    animation-name: dd;
+}
+
+@keyframes dd {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}

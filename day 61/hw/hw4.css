@@ -1,0 +1,23 @@
+.text {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 400px;
+    animation-name:colorchange ;
+    animation-duration: 2s;
+    color: rgb(197, 152, 197);
+}
+
+@keyframes colorchange {
+    0% {
+        color: rgb(160, 196, 233);
+    }
+
+    50% {
+        color: rgb(158, 192, 158);
+    }
+    
+    100% {
+        color: rgb(197, 152, 197);
+    }
+}

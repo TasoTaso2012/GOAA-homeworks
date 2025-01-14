@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(246, 134, 190);
+    animation-name:size;
+    animation-duration: 3s;
+}
+
+@keyframes size{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2); 
+    }
+    100% {
+        transform: scale(0.5); 
+    }
+}
