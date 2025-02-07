@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 16px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.work-with-us {
+    color: black;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+}
+
