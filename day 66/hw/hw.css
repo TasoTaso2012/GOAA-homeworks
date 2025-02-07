@@ -1,0 +1,129 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solar-system {
+    width: 600px;
+    height: 600px;
+
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -40%);
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+
+
+.venus {
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    position: absolute; 
+    left: 50%;
+    margin-left: 100px;
+    transform-origin: -100px;
+    animation: orbit 5s linear infinite;
+}
+
+.earth {
+    width: 18px;
+    height: 18px;
+    background-color: lightblue;
+    position: absolute; 
+    left: 50%;
+    margin-left: 150px;
+    transform-origin: -150px;
+    animation: orbit 6s linear infinite;
+}
+.mars {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    position: absolute; 
+    left: 50%;
+    margin-left: 200px;
+    transform-origin: -200px;
+    animation: orbit 4s linear infinite;
+}
+.jupiter {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    position: absolute; 
+    left: 50%;
+    margin-left: 250px;
+    transform-origin: -250px;
+    animation: orbit 5s linear infinite;
+}
+.saturn {
+    width: 25px;
+    height: 25px;
+    background-color: gold;
+    position: absolute; 
+    left: 50%;
+    margin-left: 300px;
+    transform-origin: -300px;
+    animation: orbit 7s linear infinite;
+}
+.uranus {
+    width: 22px;
+    height: 22px;
+    background-color: lightcyan;
+    position: absolute; 
+    left: 50%;
+    margin-left: 350px;
+    transform-origin: -350px;
+    animation: orbit 6s linear infinite;
+}
+.neptune {
+    width: 20px;
+    height: 20px;
+    background-color: darkblue;
+    position: absolute; 
+    left: 50%;
+    margin-left: 400px;
+    transform-origin: -400px;
+    animation: orbit 8s linear infinite;
+}
+
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+
+    color: white;
+    font-size: 24px;
+
+}
+
+
+@keyframes orbit {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
