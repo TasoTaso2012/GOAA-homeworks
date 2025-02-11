@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(43, 42, 42);
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+hr{
+    border: 1px solid black;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 90px;
+    list-style: none;
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.grey{
+    color: rgb(99, 99, 88);
+}

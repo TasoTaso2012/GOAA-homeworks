@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(3, 51, 3);
+    color: orange;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background: orange;
+    padding: 8px ;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+main {
+    padding:100px ;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
