@@ -1,0 +1,25 @@
+
+#button{
+    background-color: darkblue;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+
+#button1{
+    background-color: darkred;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+#button:hover{
+    background-color: rgb(23, 23, 212);
+}
+
+#button1:hover{
+    background-color:rgb(185, 13, 13) ;
+}
