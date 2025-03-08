@@ -1,0 +1,30 @@
+#h1{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+
+    font-size: 170px;
+    color: #b30202;
+    margin: 0;
+}
+
+.h1{
+    font-size: 190px;
+    color: #b30202;
+    position: absolute;
+    left: 1000px;
+    top: 800px;
+  
+}
+
+#img1{
+    height: 1000px;
+    
+}
+
+#img3{
+    height:900px;
+    position: absolute;
+    top: 43px;
+    bottom:100px ;
+    left: 1000px;
+}
