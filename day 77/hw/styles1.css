@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 245, 238); /* Initial background color */
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.elements {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    
+}
+
+#topimage{
+    margin-bottom: 100px;
+}
+
+#bottomimage {
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+h1 {
+    font-size: 12em; 
+    color: #333; 
+    text-align: center; 
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 20px 0; 
+}
