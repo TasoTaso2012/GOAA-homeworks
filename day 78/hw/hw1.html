@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input" placeholder="enter name">
+<button onclick="getValue()">enter color</button>
+
+<br>
+
+<h3 id="starting"></h3>
+<script>
+    function getValue(){
+        let inputValue = document.getElementById('input').value;
+        let startingText = document.getElementById('starting');
+        startingText.textContent = "your fav color is " + inputValue
+    }
+</script>
+</body>
+</html>
