@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <button onclick="po()">Perform Operations</button>
+    <button onclick="cn()">Compare Numbers</button>
+    <button onclick="atl()">Leave the Site?</button>
+
+    <script>
+       //1
+        function po() {
+            
+            let num1 = 10;
+            let num2 = 20;
+            let sum = num1 + num2;
+            let sum1 = num1 * num2;
+            console.log("sum",sum);
+            console.log("product",sum1);
+
+            
+            let str1 = "hi";
+            let str2 = "taso";
+            let combined = str1 + " " + str2;
+            console.log(combined);
+        }
+
+        
+        //2
+        function cn() {
+            let a = 15;
+            let b = 10;
+
+            console.log("a > b:", a > b);
+            console.log("a < b:", a < b);
+            console.log("a >= b:", a >= b);
+            console.log("a <= b:", a <= b);
+            console.log("a == b:", a == b);
+            console.log("a != b:", a != b);
+        }
+
+        //3
+        function atl() {
+    let userResponse = confirm("Do you want to leave the site?");
+    if (userResponse) {
+        console.log("You will leave the site soon.");
+        alert("You will leave the site soon.");
+    } else {
+        console.log("You are staying on the site.");
+        alert("You are staying on the site.");
+    }
+}
+        
+    </script>
+</body>
+</html>
