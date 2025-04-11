@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c {
+    color: #1d374f;
+    font-size: 120px; 
+    font-weight: bold; 
+    margin-bottom: 50px; 
+
+}
+
+
+#count {
+    font-weight: bold;
+    font-size: 120px; 
+    color: #1d374f; 
+    margin: 50px ; 
+}
+
+
+
+button {
+    font-size: 36px; 
+    padding: 20px 50px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px rgb(88, 87, 87);
+    color: #34495e; 
+}
+

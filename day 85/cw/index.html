@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter Document</title>
+</head>
+<body>
+    <h1 id="count">1</h1>
+    <button id="1" onclick="c1()">+5</button>
+    <button id="2" onclick="c2()">-5</button>
+
+    <script>
+        let count = 0;
+
+        function c1() {
+            count += 5;
+            document.getElementById('count').textContent = count;
+        }
+
+        function c2() {
+            count -= 5;
+            document.getElementById('count').textContent = count;
+        }
+    </script>
+
+</body>
+</html>
