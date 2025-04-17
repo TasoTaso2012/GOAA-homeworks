@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="result">enter your age</h1>
+    <button id="price" onclick="price()">check Ticket Price</button>
+
+    <script>
+        function price() {
+            const ageInput = prompt("Enter your age:");
+            const age = Number(ageInput); 
+
+            if (age < 0) {
+                document.getElementById('result').textContent = "Please enter a valid age.";
+            } 
+            
+            else if (age < 6) {
+                document.getElementById('result').textContent = "The ticket is free.";
+            }
+            
+            else if (age > 6 && age < 17) {
+                document.getElementById('result').textContent = "Ticket price is 5.";
+            }
+            
+            else if (age > 18 && age < 64) {
+                document.getElementById('result').textContent = "Ticket price is 10.";
+            }
+            
+            else if (age > 65) {
+                document.getElementById('result').textContent = "Ticket price is 7.";
+            }
+        }
+    </script>
+</body>
+</html>

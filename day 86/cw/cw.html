@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="count">0</div>
+  <button id="plus" onclick="plus()">+</button>
+  <button id="minus" onclick="minus()">-</button>
+  
+
+<script>
+
+  let count =0;
+
+let countDisplay = document.getElementById('count');
+let plusButton = document.getElementById('plus');
+let minusButton = document.getElementById('minus');
+
+function plus() {
+  count +=5;
+  countDisplay.textContent=count;
+}
+
+function minus() {
+  count -=5;
+  countDisplay.textContent =count;
+}
+
+
+
+
+countDisplay.textContent = count;
+</script>
+  
+</body>
+</html>
