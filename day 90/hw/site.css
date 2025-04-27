@@ -1,0 +1,45 @@
+
+.main {
+position: relative;
+height: 100vh;
+background-image: url('site.avif');
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+  
+.o{
+position: absolute;
+}
+  
+.content {
+text-align: left;
+margin-top: 500px;
+ margin-left: 40px;
+  }
+  
+  h1{
+font-size: 3rem;
+font-weight: 700;
+}
+  
+
+  
+.buttons {
+position: absolute;
+top: 30px;
+right: 30px; 
+}
+  
+.btn {
+background-color: transparent;
+border: 2px solid white;
+color: white;
+padding: 10px 20px;
+font-size: 1rem;
+margin: 5px;  
+}
+  

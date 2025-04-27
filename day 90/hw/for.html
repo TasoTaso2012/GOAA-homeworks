@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop Examples</title>
+</head>
+<body>
+    <script>
+        let result="";
+        for (let i=1; i<=10; i++) {
+            result+=i;
+            if (i<10) result+=", "; 
+        }
+        console.log(result);
+
+
+
+        for(let i=2; i<=10; i+=2) {
+            console.log(i);
+        }
+
+
+
+        let sum=0;
+        for (let i=1; i<=100; i++) {
+            sum+=i;
+        }
+        console.log("Sum="+sum);
+  
+
+
+        let numbers=[1,2,3,4,5,6,7,8,9,10];
+
+        for (let num of numbers) {
+            if (num %2 !==0) {
+                console.log(num);
+            }
+        }
+
+    </script>
+</body>
+</html>
