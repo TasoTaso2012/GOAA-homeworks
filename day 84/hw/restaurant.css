@@ -1,0 +1,57 @@
+body {
+    background-color: black; /* Black background */
+    color: white; /* White text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center text alignment */
+}
+
+h1 {
+    font-size: 4rem; /* Larger font size for the title */
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.info {
+    font-size: 1.2rem; /* Slightly larger info text */
+    margin-bottom: 2rem;
+    color: #ccc; /* Light gray text for the info section */
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between; /* Spread the columns across the page */
+    padding: 2rem 5rem; /* Add padding to the sides */
+    gap: 2rem; /* Space between the two columns */
+}
+
+.menu-column {
+    flex: 1; /* Make both columns take equal space */
+}
+
+table {
+    width: 100%; /* Make the table fill the column */
+    border-collapse: collapse; /* Remove gaps between table borders */
+    margin-bottom: 2rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 1rem; /* Add more padding for better spacing */
+    border-bottom: 1px solid #444; /* Subtle border for rows */
+}
+
+th {
+    font-size: 2rem; /* Larger font size for headers */
+    text-transform: uppercase;
+    color: #ddd; /* Light gray for headers */
+}
+
+td.price {
+    text-align: right; /* Align prices to the right */
+}
+
+td {
+    font-size: 1.8rem; /* Larger font size for menu items */
+}
