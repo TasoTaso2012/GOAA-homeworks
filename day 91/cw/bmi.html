@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let weight = Number(prompt("enter ur weight")) 
+let height = Number(prompt("enter ur height")) 
+let bmi=weight/(height*height) 
+height=height/100 
+
+if(bmi<18.5){ 
+console.log("underweight") 
+} 
+
+else if(bmi>=18.55 && bmi<24.9){ 
+console.log("normal") 
+} 
+
+else if(bmi>=24.9 && bmi<29.9){ 
+console.log("overweihgt") 
+} 
+
+else if(bmi>=29.9 && bmi<34.9){ 
+console.log("obese") 
+}
+else{ 
+console.log("extremely obese") 
+} 
+
+    </script>
+</body>
+</html>
